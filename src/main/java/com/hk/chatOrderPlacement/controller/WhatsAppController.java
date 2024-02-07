@@ -15,7 +15,7 @@ import org.springframework.web.client.RestTemplate;
 @Slf4j
 public class WhatsAppController {
 
-    @RequestMapping(value = "/sendMessage", method = RequestMethod.POST)
+    @RequestMapping(value = "/sendMessage", method = RequestMethod.GET)
     public ResponseEntity<String> sendMessage() {
 
         try {
